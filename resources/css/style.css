@@ -103,7 +103,7 @@ header .mobile {
 
 
 .main-content {
-  /*position: relative;
+  position: relative;
   top: 5.3125rem; /* To offset for fixed header. */
 }
 
@@ -139,7 +139,7 @@ header .mobile {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  /*height: 43.5rem;*/
+  height: 43.5rem;
   /*border: 5px solid yellow;*/
   color: white;
   line-height: 1.4;
@@ -262,7 +262,7 @@ header .mobile {
   }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 480px) {
   #sign-up-section {
     height: 20rem;
   }
@@ -328,7 +328,7 @@ header .mobile {
   height: auto;
 }
 
-@media only screen and (max-width: 1350px) {
+@media only screen and (max-width: 760px) {
   .feature .content {
     padding: 1.25rem 0 1.875rem 0;
   }
@@ -346,21 +346,27 @@ header .mobile {
   }
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 480px) {
   #features-section {
     flex-flow: column;
+    align-items: center;
     padding: 0;
     width: 100%;
   }
 
   .feature {
     margin: 0;
-    padding: 1.25rem 1rem 0 1rem;
+    padding: 1rem 0 1.875rem 0;
     width: 100%;
+    /*border: 1px solid black;*/
   }
 
   .feature .image-container {
-    width: 100%
+    width: 100%;
+  }
+
+  .feature .content {
+    padding: 0;
   }
 
   .feature img {
@@ -417,7 +423,7 @@ header .mobile {
 }
 
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 760px) {
   #filters-section {
     padding: 1.5rem 0 0 0;
   }
